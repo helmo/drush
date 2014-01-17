@@ -157,7 +157,7 @@
  *
  * @code
  * $aliases['mydevsites'] = array(
- *   'site-list' => array('@mysite.dev', '@otherside.dev');
+ *   'site-list' => array('@mysite.dev', '@otherside.dev'),
  * );
  * @endcode
  *
