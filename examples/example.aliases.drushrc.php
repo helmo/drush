@@ -120,7 +120,7 @@
  * the group, and no other information.  For example:
  *
  * $aliases['mydevsites'] = array(
- *   'site-list' => array('@mysite.dev', '@otherside.dev');
+ *   'site-list' => array('@mysite.dev', '@otherside.dev'),
  * );
  *
  * The built-in alias "@none" represents the state of no Drupal site;
