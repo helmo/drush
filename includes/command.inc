@@ -76,7 +76,7 @@ function drush_invoke($command, $arguments = array()) {
  *        to be invoked concurrently (e.g. for running concurrent batch processes).
  *      'concurrency'
  *        Limits the number of concurrent processes that will run at the same time.
- *        Defaults to '4'.
+ *        Defaults to '1'.
  *      'override-simulated'
  *        Forces the command to run, even in 'simulated' mode. Useful for
  *        commands that do not change any state on the machine, e.g. to fetch
