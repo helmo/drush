@@ -227,8 +227,8 @@ abstract class UnishTestCase extends \PHPUnit_Framework_TestCase {
   }
 
   function setUpDrupal($num_sites = 1, $install = FALSE, $version_string = UNISH_DRUPAL_MAJOR_VERSION, $profile = NULL, $sites_subdirs = array()) {
-    $sites_subdirs_all = array('dev', 'stage', 'prod', 'retired', 'elderly', 'dead', 'dust');
     if (empty($sites_subdirs)) {
+      $sites_subdirs_all = array('dev', 'stage', 'prod', 'retired', 'elderly', 'dead', 'dust');
       $sites_subdirs = array_slice($sites_subdirs_all, 0, $num_sites);
     }
     $root = $this->webroot();
